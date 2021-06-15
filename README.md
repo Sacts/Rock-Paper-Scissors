@@ -45,7 +45,7 @@ Note this means that, for instance we have:
 
 A program that given an input, outputs either “VALID” or “INVALID” depending on the
 
-input. For this question you can assume
+input. For this you can assume
 
 • The input is a single line.
 
@@ -53,11 +53,12 @@ input. For this question you can assume
 
 Input Sample
 
+(R&(P&((P&R)&(R&R ) ) ) )
+
 Output Sample
 
 VALID
 
-(R&(P&((P&R)&(R&R ) ) ) )
 
 Here is another example.
 
@@ -77,20 +78,20 @@ valid for this question.
 
 Input Sample
 
+( (R&P)&(S&S ))
+
 Output Sample
 
 S
 
-( (R&P)&(S&S ))
 
 Here is another example.
 
 Input Sample
 
+( ( ( R&P)&(P&S))&R)
+
 Output Sample
 
 R
 
-( ( ( R&P)&(P&S))&R)
-
-2
